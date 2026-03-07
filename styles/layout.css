@@ -1,0 +1,31 @@
+header {
+text-align: center;
+}
+
+main{
+    display: flex;
+    min-height: 100vh;
+}
+
+#fishList{
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+    border: 1px solid salmon;
+    justify-content:center;
+    
+}
+
+aside {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-sizing: border-box; 
+    height: 100vh;
+}
+
+
+
+#locationList{display: none;
+}

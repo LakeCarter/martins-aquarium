@@ -1,0 +1,31 @@
+.fish {
+    flex-basis: 300px;
+    flex-grow: 1;
+    max-width: 300px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    overflow:hidden;
+    transition: transform 0.3s ease;
+    background-color: rgb(92, 113, 153);
+}
+
+.fish_image {
+    width: 100%;
+    aspect-ratio: 2 / 1;
+    object-fit: cover;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.tips{
+    border: 1px solid black;
+}
+
+header{
+    margin: 20px 60px;
+    border: 1px solid blueviolet
+}
