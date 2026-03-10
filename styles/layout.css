@@ -1,19 +1,38 @@
 header {
 text-align: center;
+margin-left:100px;
+margin-right:100px;
 }
 
 main{
-    display: flex;
-    min-height: 100vh;
+margin-left:100px;
+margin-right:100px;
+margin-left: 20%;
 }
 
+
+
+#listAndTips{
+    display: flex;
+    flex-direction:row;
+    gap: 5%;
+    
+}
+
+
+
 #fishList{
+    display: flex;
     flex: 1;
     flex-wrap: wrap;
-    gap: 20px;
+    max-height: fit-content;
+    max-width:700px;
+    gap: 50px;
     flex-direction: row;
     border: 1px solid salmon;
-    justify-content:center;
+    justify-content:left;
+    margin-right: 100px;
+    
     
 }
 
@@ -22,10 +41,23 @@ aside {
     background-color: #f4f4f4;
     padding: 20px;
     box-sizing: border-box; 
+    flex-direction: column;
     height: 100vh;
+    margin-right: auto;
 }
 
 
 
-#locationList{display: none;
+#locationList{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-height: fit-content;
+    max-width: 700px;
+    gap: 20px;
+    flex-direction: row;
+    border: 1px solid rgb(239, 114, 250);
+    
+
 }

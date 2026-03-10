@@ -1,11 +1,10 @@
 .fish {
-    flex-basis: 300px;
+    flex-basis: 400px;
     flex-grow: 1;
     max-width: 300px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
-    background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     overflow:hidden;
@@ -28,4 +27,13 @@
 header{
     margin: 20px 60px;
     border: 1px solid blueviolet
+}
+
+.locations{
+    border: 1px solid black;
+    margin-bottom: 20px;
+    max-width: 400px;
+    background-color: rgb(230, 207, 166);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
