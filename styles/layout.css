@@ -44,6 +44,7 @@ aside {
     flex-direction: column;
     height: 100vh;
     margin-right: auto;
+    
 }
 
 
@@ -58,6 +59,7 @@ aside {
     gap: 20px;
     flex-direction: row;
     border: 1px solid rgb(239, 114, 250);
+    margin-top: 100px;
     
 
 }

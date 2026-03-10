@@ -7,7 +7,7 @@ export const fishList = () => {
     
     for (const fish of database.fish){
         fishHTML += `
-            <article class = "fish">
+            <article class = "fish"> 
                 <img src = "${fish.image}" alt="${fish.name} image"
                 class = "fish_image">
                 <div class = "fish_details">

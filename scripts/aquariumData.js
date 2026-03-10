@@ -70,7 +70,7 @@ export const database = {
             length: 5, // divisible by 5
             location: "Indo-Pacific Reefs",
             diet: "Carnivore",
-            image: "https://upload.wikimedia.org/wikipedia/commons/5/56/Blacktip_reef_shark.jpg"
+            image: "https://upload.wikimedia.org/wikipedia/commons/0/01/Carcharhinus_melanopterus_mirihi.jpg"
         },
         {
             name: "Flash",
@@ -78,7 +78,7 @@ export const database = {
             length: 6, // divisible by 3
             location: "Open Ocean",
             diet: "Carnivore",
-            image: "https://upload.wikimedia.org/wikipedia/commons/1/1c/Yellowfin_tuna.jpg"
+            image: "https://reel-guides.com/wp-content/uploads/2024/06/photorealistic-wild-tuna-day-cel-e1718123296585.jpg"
         },
         {
             name: "Pebble",
@@ -86,15 +86,15 @@ export const database = {
             length: 10, // divisible by 5
             location: "Deep Sea",
             diet: "Carnivore",
-            image: "https://upload.wikimedia.org/wikipedia/commons/8/84/Mitsukurina_owstoni_goblin_shark.jpg"
+            image: "https://cdn.oceanographicmagazine.com/wp-content/uploads/2026/01/23153829/Screenshot-2026-01-23-at-15.28.23.png"
         },
         {
-            name: "Ripple",
-            species: "Betta",
+            name: "Slim Jim",
+            species: "Spotted Garden Eel",
             length: 4,
-            location: "Southeast Asian Freshwater",
+            location: "Pacific waters East Africa",
             diet: "Carnivore",
-            image: "https://upload.wikimedia.org/wikipedia/commons/5/5b/Betta_splendens_male.jpg"
+            image: "https://a-z-animals.com/media/2022/12/iStock-1132643505-768x512.jpg"
         },
         {
             name: "Azure",
@@ -102,7 +102,7 @@ export const database = {
             length: 9, // divisible by 3
             location: "Caribbean Reefs",
             diet: "Herbivore",
-            image: "https://upload.wikimedia.org/wikipedia/commons/0/0f/Blue_Tang_%28Acanthurus_coeruleus%29.jpg"
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTDN_G3FLBOPablNR7cFlf15nXE2OsSMtwbQ&s"
         },
         {
             name: "Finley",
@@ -110,15 +110,15 @@ export const database = {
             length: 8,
             location: "North Atlantic",
             diet: "Carnivore",
-            image: "https://upload.wikimedia.org/wikipedia/commons/3/31/Salmo_salar.jpg"
+            image: "https://www.biologicaldiversity.org/assets/img/species/fish/AtlanticSalmon_WilliamHartley_USFWS_2_FPWC_HIGHRES.jpg"
         },
         {
-            name: "Stripe",
-            species: "Lionfish",
+            name: "Mr Sir",
+            species: "Sergeant Major",
             length: 12, // divisible by 3
             location: "Indo-Pacific",
             diet: "Carnivore",
-            image: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Pterois_volitans_Lionfish.jpg"
+            image: "https://inaturalist-open-data.s3.amazonaws.com/photos/9827825/large.jpg"
         },
         {
             name: "Bubbles",
@@ -126,7 +126,7 @@ export const database = {
             length: 5, // divisible by 5
             location: "Freshwater Ponds",
             diet: "Omnivore",
-            image: "https://upload.wikimedia.org/wikipedia/commons/2/25/Common_goldfish.jpg"
+            image: "https://aquaticsunlimited.com/wp-content/uploads/2023/11/GOLDFISH-ORANDA-RED-CAP-Carassius-auratus.jpg"
         },
         {
             name: "Glider",
@@ -134,7 +134,7 @@ export const database = {
             length: 15, // divisible by 3 and 5
             location: "Tropical Oceans",
             diet: "Planktivore",
-            image: "https://upload.wikimedia.org/wikipedia/commons/7/73/Manta_birostris-Thailand.jpg"
+            image: "https://www.floridamuseum.ufl.edu/wp-content/uploads/sites/66/2017/05/Manta-birostris-07.jpg"
         },
         {
             name: "Speck",
@@ -142,7 +142,7 @@ export const database = {
             length: 7,
             location: "Cold Freshwater Rivers",
             diet: "Carnivore",
-            image: "https://upload.wikimedia.org/wikipedia/commons/3/32/Rainbow_trout.png"
+            image: "https://s7d1.scene7.com/is/image/isp/wafrainbowtrout-pc?qlt=100&wid=1200&ts=1753472897976&$ImageComponent$&fit=constrain"
         },
         {
             name: "Torch",
@@ -150,7 +150,7 @@ export const database = {
             length: 3, // divisible by 3
             location: "Pacific Coral Reefs",
             diet: "Carnivore",
-            image: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Synchiropus_splendidus_2_Luc_Viatour.jpg"
+            image: "https://images.stockcake.com/public/8/c/8/8c8cdabc-d9f4-4690-80ec-9f683a5723c4_large/vibrant-mandarin-fish-stockcake.jpg"
         },
         {
             name: "Drift",
@@ -158,15 +158,15 @@ export const database = {
             length: 14,
             location: "Temperate Oceans",
             diet: "Carnivore",
-            image: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Mola_mola2.jpg"
+            image: "https://th-thumbnailer.cdn-si-edu.com/mtoMrYICK3DwwnPzPC4x2LimX0o=/fit-in/1600x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/94/c1/94c102c0-1929-4ff6-b6ff-fd5d5ae036ae/42-25125374.jpg"
         },
         {
-            name: "Blade",
+            name: "Heart",
             species: "Barracuda",
             length: 9, // divisible by 3
             location: "Tropical Atlantic",
             diet: "Carnivore",
-            image: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Great_Barracuda.jpg"
+            image: "https://upload.wikimedia.org/wikipedia/commons/e/eb/Barracuda_laban.jpg"
         },
         {
             name: "Current",
@@ -174,7 +174,7 @@ export const database = {
             length: 10, // divisible by 5
             location: "Eurasian Freshwater",
             diet: "Omnivore",
-            image: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Cyprinus_carpio.jpeg"
+            image: "https://www.thefisherman.com/wp-content/uploads/2020/11/2020-11-37-SPECIES_PROFILE-carp.jpg"
         }
         ],
         

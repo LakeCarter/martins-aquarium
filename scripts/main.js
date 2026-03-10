@@ -23,11 +23,10 @@ const regularFish = getRegularFish(database.fish)
 
 
 // Render each HTML string to the correct DOM element
-//renderfishtoDOM(fishHTML,"fishList")
+renderfishtoDOM(fishHTML,"fishList")
 renderfishtoDOM(tipHTML,"tipList")
 renderfishtoDOM(locationHTML,"locationList")
 
+// Render the followers of the fish
 const htmlElement = document.getElementById(`fishList`)
-
-
 htmlElement.innerHTML = `${mostHolyFish}${soldierFish}${regularFish}`
