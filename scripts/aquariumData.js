@@ -55,27 +55,148 @@ export const database = {
             location: "Thailand",
             diet: "Carnivorous",
             image: "https://aquadesign.pk/wp-content/uploads/2025/06/1-300x300.webp"
-        }
-    ],
-    
-    tips: [
-        {
-        topic: "Water Temperature",
-        text: "Maintain a consistent water temperature between 75-80°F (24-27°C) for most tropical fish."
-        }
-    ],
-
-    locations: [
-        {
-        name: "Great Barrier Reef",
-        country: "Australia",
-        description: "The Great Barrier Reef is the world's largest coral reef system, supporting a diverse array of marine life."
         },
         {
-        name: "Great Barrier Reef",
-        country: "Australia",
-        description: "The Great Barrier Reef is the world's largest coral reef system, supporting a diverse array of marine life."
+            name: "Coral",
+            species: "Clownfish",
+            length: 3, // divisible by 3
+            location: "Great Barrier Reef",
+            diet: "Omnivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Seattle_Aquarium_088_-_Tropical_Pacific_-_clownfish_%2816221564709%29.jpg/960px-Seattle_Aquarium_088_-_Tropical_Pacific_-_clownfish_%2816221564709%29.jpg"
+        },
+        {
+            name: "Shadow",
+            species: "Blacktip Reef Shark",
+            length: 5, // divisible by 5
+            location: "Indo-Pacific Reefs",
+            diet: "Carnivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/5/56/Blacktip_reef_shark.jpg"
+        },
+        {
+            name: "Flash",
+            species: "Yellowfin Tuna",
+            length: 6, // divisible by 3
+            location: "Open Ocean",
+            diet: "Carnivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/1/1c/Yellowfin_tuna.jpg"
+        },
+        {
+            name: "Pebble",
+            species: "Goblin Shark",
+            length: 10, // divisible by 5
+            location: "Deep Sea",
+            diet: "Carnivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/8/84/Mitsukurina_owstoni_goblin_shark.jpg"
+        },
+        {
+            name: "Ripple",
+            species: "Betta",
+            length: 4,
+            location: "Southeast Asian Freshwater",
+            diet: "Carnivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/5/5b/Betta_splendens_male.jpg"
+        },
+        {
+            name: "Azure",
+            species: "Blue Tang",
+            length: 9, // divisible by 3
+            location: "Caribbean Reefs",
+            diet: "Herbivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/0/0f/Blue_Tang_%28Acanthurus_coeruleus%29.jpg"
+        },
+        {
+            name: "Finley",
+            species: "Atlantic Salmon",
+            length: 8,
+            location: "North Atlantic",
+            diet: "Carnivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/3/31/Salmo_salar.jpg"
+        },
+        {
+            name: "Stripe",
+            species: "Lionfish",
+            length: 12, // divisible by 3
+            location: "Indo-Pacific",
+            diet: "Carnivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Pterois_volitans_Lionfish.jpg"
+        },
+        {
+            name: "Bubbles",
+            species: "Goldfish",
+            length: 5, // divisible by 5
+            location: "Freshwater Ponds",
+            diet: "Omnivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/2/25/Common_goldfish.jpg"
+        },
+        {
+            name: "Glider",
+            species: "Manta Ray",
+            length: 15, // divisible by 3 and 5
+            location: "Tropical Oceans",
+            diet: "Planktivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/7/73/Manta_birostris-Thailand.jpg"
+        },
+        {
+            name: "Speck",
+            species: "Rainbow Trout",
+            length: 7,
+            location: "Cold Freshwater Rivers",
+            diet: "Carnivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/3/32/Rainbow_trout.png"
+        },
+        {
+            name: "Torch",
+            species: "Mandarinfish",
+            length: 3, // divisible by 3
+            location: "Pacific Coral Reefs",
+            diet: "Carnivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Synchiropus_splendidus_2_Luc_Viatour.jpg"
+        },
+        {
+            name: "Drift",
+            species: "Ocean Sunfish",
+            length: 14,
+            location: "Temperate Oceans",
+            diet: "Carnivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Mola_mola2.jpg"
+        },
+        {
+            name: "Blade",
+            species: "Barracuda",
+            length: 9, // divisible by 3
+            location: "Tropical Atlantic",
+            diet: "Carnivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Great_Barracuda.jpg"
+        },
+        {
+            name: "Current",
+            species: "Carp",
+            length: 10, // divisible by 5
+            location: "Eurasian Freshwater",
+            diet: "Omnivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Cyprinus_carpio.jpeg"
         }
+        ],
+        
+        
+        tips: [
+            {
+            topic: "Water Temperature",
+            text: "Maintain a consistent water temperature between 75-80°F (24-27°C) for most tropical fish."
+            }
+    ],
 
-    ]
+        locations: [
+            {
+            name: "Great Barrier Reef",
+            country: "Australia",
+            description: "The Great Barrier Reef is the world's largest coral reef system, supporting a diverse array of marine life."
+            },
+            {
+            name: "Great Barrier Reef",
+            country: "Australia",
+            description: "The Great Barrier Reef is the world's largest coral reef system, supporting a diverse array of marine life."
+            }
+
+        ]
 }
